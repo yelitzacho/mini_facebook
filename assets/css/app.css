@@ -1,0 +1,24 @@
+* {
+  font-family: 'Prompt', sans-serif;
+}
+
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 8px;
+  font-size: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-signin . form-control:focus {
+  z-index: 2;
+}
