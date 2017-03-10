@@ -10,13 +10,13 @@
     <form class="form-signin">
       <label for="inputEmail" class="">Email:<br></label>
       <input type="text" id="input-Email" class="form-control" placeholder="Ingresa tu email">
-      <label class="campovalidar" id="campoEmail" ><br></label>
+      <span class="campovalidar" id="campoEmail"><br></span>
 
       <label for="inputPassword" class=""><br></br>Password:<br></label>
       <input type="password" id="input-Password" class="form-control" placeholder="Ingresa tu contraseña"><br></br>
-      <label class="campovalidar" id="campoPassword" ><br></label>
+      <span class="campovalidar" id="campoPassword" onclick="validarLogin()" ><br></span>
 
-      <button type="submit" name="button" onclick="validarLoguin();">Loguin</button>
+      <button type="submit" id="login" name="button" onclick="validarLogin();">Loguin</button>
     </form>
     <script src="js/app.js"></script>
   </body>
